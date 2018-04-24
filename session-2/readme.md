@@ -60,3 +60,11 @@ So if the server is not established in UDP:
 So if the server is not established in TCP:
 * client can't connect
 * client won't respond
+
+## Port 53
+Both TCP and UDP are listened by this. It is DNS Port.
+
+## Services
+~~~
+cat /etc/services
+~~~
